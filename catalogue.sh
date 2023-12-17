@@ -71,7 +71,7 @@ npm install  &>> $LOGFILE
 VALIDATE $? "Installing dependencies"
 
 # use absolute, because catalogue.service exists there
-cp /root/roboshop-shell/catalogue.service /etc/systemd/system/catalogue.service &>> $LOGFILE
+cp /root/Roboshop-shell/catalogue.service /etc/systemd/system/catalogue.service &>> $LOGFILE
 
 VALIDATE $? "Copying catalogue service file"
 
@@ -87,7 +87,7 @@ systemctl start catalogue &>> $LOGFILE
 
 VALIDATE $? "Starting catalogue"
 
-cp /root/roboshop-shell/mongo.repo /etc/yum.repos.d/mongo.repo
+cp /root/Roboshop-shell/mongo.repo /etc/yum.repos.d/mongo.repo
 
 VALIDATE $? "copying mongodb repo"
 
