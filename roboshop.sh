@@ -3,7 +3,7 @@
 AMI=ami-03265a0778a880afb
 SG_ID=sg-0161bbc0ff4c0e791 #replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
-ZONE_ID=Z089758214EN5STGRKQNW
+ZONE_ID=Z01134191WS8YPNB3E9T1
 DOMAIN_NAME="ramakrishna.cloud"
 
 for i in "${INSTANCES[@]}"
